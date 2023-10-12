@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+* {
+    margin: 0;
+}
+
 :root {
     --body-bg: hsl(0, 0%, 12%);
 }
@@ -13,9 +17,8 @@ html {
 }
 
 body {
-    margin: 0;
+    color: #fff;
     background: var(--body-bg);
-    color: white;
     font-family: system-ui;
     font-size: 1.25rem;
     line-height: 1.5;
